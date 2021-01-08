@@ -1,0 +1,146 @@
+/* General */
+*{transition:background 1s,color 1s;}
+@font-face{font-family:cocon;src:url('cocon.otf');}
+body{
+	font-family:cocon;
+	margin:0;
+	color:#fff;
+}
+a{color:#ff0;text-decoration:none;}
+li{list-style-type:none;}
+
+/* navbar */ 
+nav{
+	position:fixed;
+	top:0;
+	height:40px;
+	background:#333;
+	width:100%;
+}
+.nav-btn{
+	height:100%;
+	background:transparent;
+	border:none;
+	color:#fff;
+	font-family:inherit;
+	font-size:17px;
+	float:right;
+	cursor:pointer;
+	margin:0 5px;
+}
+.logo{float:left;margin:0;}
+.lg{width:30px;}
+.social{
+	width:40%;
+	height:0;
+	position:absolute;
+	top:40px;
+	right:0;
+	text-align:center;
+	background:#444;
+	border-radius:0 0 16px 16px;
+	overflow:hidden;
+	transition:height 0.6s,background 1s;
+}
+.icon{width:25px;padding:1px;}
+
+/* page contents */
+.container{background:#666;}
+header{
+	margin-top:40px;
+	padding:5px;
+	background:#222;
+	text-align:center;
+}
+.you{width:50%;max-height:400px;}
+.mode{
+	color:#fff;
+	width:30%;
+	border:none;
+	border-radius:16px;
+	font-size:17px;
+	cursor:pointer;
+	padding:3px;
+	height:50px;
+}
+.b{background:#00f;}
+.d{background:#000;}
+.w{background:#fff;color:#000;}
+.content{
+	padding:7px 0;
+	width:100%;
+	margin:10px 0;
+	text-align:center;
+	background:#000;
+}
+.work-image{width:90%;}
+footer{
+	font-size:15px;
+	background:#111;
+	padding:15px 0;
+	text-align:center;
+}
+/* Editing Style For Bigger Screens */
+@media screen and (min-width: 360px) {
+	.nav-btn{font-size:22px;}
+	.container{font-size:20px;}
+	footer{font-size:17px;}
+	.icon{width:28px;padding:2px;}
+}
+@media screen and (min-width: 600px) {
+	.nav-btn{font-size:26px;}
+	.container{font-size:23px;}
+	footer{font-size:19px;}
+	.icon{width:30px;}
+}
+@media screen and (min-width: 720px) {
+	nav{height:50px;}
+	.nav-btn{
+		font-size:28px;
+		transition:background 0.3s;
+	}
+	.nav-btn:hover{
+		background:#000;
+		color:#fff;
+	}
+	.social{top:50px;}
+	.icon{width:35px;}
+	header{margin-top:50px;}
+	.content{
+		margin:10px 5%;
+		width:38%;
+		float:left;
+		border-radius:16px;
+	}
+	footer{
+		width:100%;
+		height:70px;
+		overflow:hidden;
+	}
+}
+@media screen and (min-width: 948px) {
+	.icon{width:40px;}
+	.container{font-size:28px;}
+	.you{max-height:500px;}
+	.content{
+		width:30%;
+		margin:15px 5px;
+	}
+}
+@media screen and (min-width: 1200px) {
+	.icon{width:45px;}
+	.container{font-size:30px;}
+	.you{max-height:600px;}
+}
+@media screen and (min-width: 1500px) {
+	nav{height:60px;}
+	.nav-btn{font-size:34px;}
+	.social{top:60px;}
+	.icon{width:50px;}
+	.container{font-size:32px;}
+	header{margin-top:60px;}
+	.you{max-height:700px;}
+	.content{
+		width:20%;
+	}
+}
