@@ -42,7 +42,7 @@ function liteMode(){
 		a[i].style.color = '#0ff';
 	}
 	container.style.background = '#ccc';
-	header.style.background = '#666';
+	header.style.background = '#eee';
 	for(i=0;i<content.length;i++){
 		content[i].style.background = '#555';
 	}
