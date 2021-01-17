@@ -28,7 +28,10 @@ nav{
 	cursor:pointer;
 }
 .logo{float:left;}
-.lg{width:30px;}
+.lg{
+	height:90%;
+	padding:2px;
+}
 .social{
 	width:40%;
 	height:0;
@@ -82,14 +85,12 @@ footer{
 /* Editing Style For Bigger Screens */
 @media screen and (min-width: 360px) {
 	.nav-btn{font-size:22px;}
-	.lg{width:33px;}
 	.container{font-size:20px;}
 	footer{font-size:17px;}
 	.icon{width:28px;padding:2px;}
 }
 @media screen and (min-width: 600px) {
 	.nav-btn{font-size:26px;}
-	.lg{width:35px;}
 	.container{font-size:23px;}
 	footer{font-size:19px;}
 	.icon{width:30px;}
@@ -104,7 +105,6 @@ footer{
 		background:#000;
 		color:#fff;
 	}
-	.lg{width:40px;}
 	.social{top:50px;}
 	.icon{width:35px;}
 	header{margin-top:50px;}
@@ -121,7 +121,6 @@ footer{
 	}
 }
 @media screen and (min-width: 948px) {
-	.lg{width:45px;}
 	.icon{width:40px;}
 	.container{font-size:28px;}
 	.you{max-height:500px;}
@@ -131,7 +130,6 @@ footer{
 	}
 }
 @media screen and (min-width: 1200px) {
-	.lg{width:50px;}
 	.icon{width:45px;}
 	.container{font-size:30px;}
 	.you{max-height:600px;}
@@ -139,7 +137,6 @@ footer{
 @media screen and (min-width: 1500px) {
 	nav{height:60px;}
 	.nav-btn{font-size:34px;}
-	.lg{width:55px;}
 	.social{top:60px;}
 	.icon{width:50px;}
 	.container{font-size:32px;}
